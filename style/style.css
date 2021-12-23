@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://media.istockphoto.com/vectors/digital-technology-gaming-abstract-background-vector-id1164222265?k=20&m=1164222265&s=170667a&w=0&h=IVofCowQw51bHMHrh7FYP6K8TWUu2opeZN6iQ3HmGPg=");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.guess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightskyblue;
+    width: 500px;
+    height: 350px;
+}
+.guess__title{
+    text-align: center;
+    color: #fff;
+    background: red;
+    font-size: 25px;
+}
+
+.guess_inp{
+    margin: 10px 0;
+}
+
+.guess__input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.guess__input1{
+    width: 100px;
+}
+.guess__input2{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.guess_btn2{
+    width: 104px;
+}
+.guess__answers{
+    display: flex;
+    height: 20px;
+}
+.guess__prev{
+    margin-right: 10px;
+}

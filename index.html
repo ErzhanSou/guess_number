@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Guess the Number</title>
+</head>
+<body>
+<div class="guess">
+    <h1 class="guess__title">Попытайтесь угадать число</h1>
+    <div class="guess__input">
+        <p class="guess__title1">Введите число</p>
+        <p class="from">от:</p>
+        <input type="number" step='1' class="guess__input1">
+        <p class="before">до:</p>
+        <input type="number" step='1' class="guess__input2">
+        <button class="guess_btn2">Сохранить</button>
+    </div>
+    <p class="guess__title1">Ваш ответ</p>
+    <input type="number" step="1" minlength="1" maxlength="20" class="guess_inp">
+
+    <button class="guess_btn">Проверить</button>
+    <div class="guess__answers">
+        <p class="guess__prev">Ваши попытки:</p>
+        <p class="guess__previous"></p>
+    </div>
+    <div class="guess__answers">
+        <p class="guess__answer"></p>
+    </div>
+    <div class="guess__answers">
+        <p class="guess__prev">Подсказки:</p>
+        <p class="guess__hint"></p>
+    </div>
+</div>
+
+
+<script src="./script/script.js"></script>
+
+</body>
+</html>
